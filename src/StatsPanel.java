@@ -29,6 +29,7 @@ public class StatsPanel extends JPanel {
 
     }
     public StatsPanel(BoardPanel boardPanel) {
+        this.setBackground(Color.RED);
         this.setLayout(new GridLayout(1,3));
         this.setMaximumSize(new Dimension(470, 100));
         JButton newButton = new JButton();
